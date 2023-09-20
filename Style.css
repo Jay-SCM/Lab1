@@ -1,0 +1,44 @@
+header {
+    height: 60px;
+    background-color: rgb(65, 62, 62);
+}
+
+.DiceButtons {
+
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: gray;
+}
+
+.D6 {
+    background-color: brown;
+}
+
+.D10 {
+    background-color: brown;
+}
+
+.TestB {
+    background-color: brown;
+}
+
+#rollResult {
+    height: 30px;
+    width: 20px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center
+    
+}
+footer{
+    height: 30px;
+    width: auto;
+    padding: 20px;
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+}
