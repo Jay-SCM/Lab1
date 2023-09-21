@@ -1,47 +1,59 @@
+/* style for header */
 header {
-    height: 60px;
-    background-color: rgb(65, 62, 62);
+    height: 60px; /* sadded 60px height*/
+    background-color: rgb(65, 62, 62);  /* change background color*/
 }
 
-.DiceButtons {
+/* style for dice buttons */
 
-    width: auto;
+.DiceButtons { /* added dice button class */
+
+    width: auto; /* added auto width and height scaling to center elements  */
     height: auto;
-    padding: 20px;
+    padding: 20px; /* added padding to keep them from overlap */
     margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    background-color: gray;
+    margin-left: auto; 
+    text-align: center; /* saligned the text to center */
+    background-color: gray; /* changed button background to gray */
 }
+
+/* style for each buttons */
 
 .D6 {
-    background-color: brown;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: brown;  /* changed backround to brown */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* changed font style to something else  */
 }
 
 .D10 {
-    background-color: brown;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: brown; /* changed backround to brown */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* changed font style to something else  */
 }
 
 .TestB {
-    background-color: brown;
+    background-color: brown; /* changed font style to something else  */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* styling for the result printed to screen  */
+
 #rollResult {
-    height: 30px;
-    width: 20px;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center
+    height: 30px;  /* added a height and width  */
+    width: 20px; 
+    margin-top: 20px; /* added margin to top left and right to keep from overlap  */
+    margin-right: auto; 
+    margin-left: auto; 
+    text-align: center /* centered the text */
     
 }
+
+/* footer styling  */
 footer{
-    height: 30px;
+    height: 30px; /* added a height and width  */
     width: auto;
-    padding: 20px;
-    background-color: rgb(24, 23, 23);
-    text-align: center;
+    padding: 20px; /* padding for overlap  */
+    background-color: rgb(24, 23, 23); /* background color change */
+    text-align: center; /* centered items  */
+
+
+    /* need to list items left to right  */
 }
