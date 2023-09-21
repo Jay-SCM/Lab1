@@ -3,9 +3,7 @@ function DiceR(faces) {
     if (rand == 0) rand ++;
     document.getElementById("rollResult").innerHTML = rand;
     return rand;
-
 }
-
 function testRollTheDice() {
     let success = true;
     const sixRoll = DiceR(6);
